@@ -3,8 +3,8 @@
 **Phase:** 0 (Foundations) — research/design only.
 
 ## Done
-- Building-block survey and integration stance ([ARCHITECTURE.md](./ARCHITECTURE.md)).
-- Metadata-spectrum approach and threat model drafted.
+- Building-block survey and integration stance drafted and reviewed ([ARCHITECTURE.md](./ARCHITECTURE.md)).
+- Metadata-spectrum approach and threat model drafted and reviewed.
 
 ## Next
 - Prior-art deep-dive: libp2p, Tor, Nym/Loopix, Briar (write up trade-offs).
