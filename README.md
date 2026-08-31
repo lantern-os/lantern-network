@@ -7,7 +7,7 @@ identities** per context.
 - **Layer:** system service (confined user space).
 - **System context:** [wiki/Networking](https://github.com/lantern-os/lantern-docs/blob/main/wiki/Networking.md).
 
-> ⚠️ **Phase 0.** Design/research only; no code. See [`STATUS.md`](./STATUS.md).
+> ⚠️ **Phase 3** (RFC-0017/ADR-0021) — still design/research only; blocked on the confined-execution port carried forward from Phase 2. See [`STATUS.md`](./STATUS.md).
 
 ## In this repo
 - [`ARCHITECTURE.md`](./ARCHITECTURE.md), [`THREAT_MODEL.md`](./THREAT_MODEL.md), [`STATUS.md`](./STATUS.md).
