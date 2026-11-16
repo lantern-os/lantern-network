@@ -7,8 +7,9 @@ identities** per context.
 - **Layer:** system service (confined user space).
 - **System context:** [wiki/Networking](https://github.com/lantern-os/lantern-docs/blob/main/wiki/Networking.md).
 
-> **Phase 3.** The first stack is built ([RFC-0035](https://github.com/lantern-os/lantern-rfcs/blob/main/rfcs/0035-pairwise-network-identities.md)/[ADR-0040](https://github.com/lantern-os/lantern-rfcs/blob/main/adr/0040-pairwise-network-identities.md)): IPv4 and UDP, in `lantern-boot`'s confined `net` service, under the
-> wallet's pairwise identities. See [`STATUS.md`](./STATUS.md).
+> **Phase 4** ([RFC-0036](../lantern-rfcs/rfcs/0036-phase-3-to-phase-4-transition.md)): hardware and assurance. The first stack is built
+> ([RFC-0035](../lantern-rfcs/rfcs/0035-pairwise-network-identities.md)): IPv4 and UDP in `lantern-boot`'s confined
+> `net` service, under the wallet's pairwise identities. An anonymity transport continues alongside Phase 4. See [`STATUS.md`](./STATUS.md).
 
 ## In this repo
 - **`lantern-network`**, a `no_std` crate with no allocation and no syscalls: Ethernet II, ARP, IPv4 and UDP, parsed and
