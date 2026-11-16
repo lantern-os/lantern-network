@@ -1,0 +1,13 @@
+[package]
+name = "lantern-network"
+version = "0.0.0"
+edition = "2021"
+description = "LanternOS's minimal network stack (RFC-0035): Ethernet, ARP, IPv4 and UDP, parsed and built with no allocation and no syscalls, for the confined net service."
+license = "MIT OR Apache-2.0"
+publish = false
+
+[lib]
+name = "lantern_network"
+path = "src/lib.rs"
+
+[dependencies]
